@@ -1,0 +1,38 @@
+@charset 'utf-8';
+
+@import
+    'variables',
+    'bulma',
+    'progress-bar';
+
+img {
+    display: block;
+}
+
+.app-content {
+    padding: 80px 20px 50px;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+}
+
+.pagination {
+    margin: 25px 0;
+}
+
+.card .content {
+    text-align: center;
+}
+
+.global-messages {
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.customer-page .left-column .panel-block p {
+    line-height: 32px;
+}
