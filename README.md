@@ -29,3 +29,11 @@ $ npm run start-prod
 
 It will install all the node packages you need automatically.
 Once the installation and webpack build are finished, open [http://localhost:8000](http://localhost:8000) in your browser.
+
+## Testing
+
+RESTful API endpoints tests with [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/).
+```sh
+$ cd <application_directory_root>
+$ npm run test
+```
